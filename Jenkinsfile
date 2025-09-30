@@ -1,7 +1,3 @@
-
-#!/usr/bin/env groovy
-def gv
-
 pipeline{
     agent any
 
@@ -10,14 +6,6 @@ pipeline{
     }
 
     stages{
-        stage('init'){
-            steps{
-                script{
-                    gv =  load "script.groovy" 
-                }
-                            
-            }
-        }
         stage('build jar'){
             steps{
                 script{
