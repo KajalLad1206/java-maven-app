@@ -34,15 +34,14 @@ ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
             - port 50000 is for communication between jenkins master and worker nodes
             - jenkins/jenkins is the official jenkins image from dockerhub
 2. Manually Install Jenkins on aws server (here I used this method)
-    Jenkins requires Java (OpenJDK 11+). Run:
-        sudo apt update
-        sudo apt install -y openjdk-17-jdk
-        Verify: java -version
-    Add Jenkins Repo 
+    - Jenkins requires Java (OpenJDK 11+). Run:
+        - `sudo apt update`
+        - `sudo apt install -y openjdk-17-jdk`
+        Verify: `java -version`
+    - Add Jenkins Repo 
+       `curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null` 
 
-        curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null 
-
-        echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null 
+       `echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null` 
 
     Install Jenkins 
         sudo apt-get update 
@@ -197,4 +196,5 @@ NOTE: if there is a warning like this in the logs: "Using --password via the CLI
         steps...
     ```
 NOTE: all branches configured in the multibranch pipeline job should share the same Jenkinsfile
+
 
