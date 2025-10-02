@@ -197,4 +197,5 @@ NOTE: if there is a warning like this in the logs: "Using --password via the CLI
     ```
 NOTE: all branches configured in the multibranch pipeline job should share the same Jenkinsfile
 
+-screenshot : https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
 
