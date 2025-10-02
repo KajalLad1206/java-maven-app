@@ -35,8 +35,13 @@ pipeline{
         }
         stage('deploy'){
             steps{
+                echo "Deploying the project on aws server..!" 
                  script{
-                    gv.deployApp()
+                    //gv.deployApp()
+                    sshagent(['aws-ec2-server-key']) {
+                        def dockercommand = "docker run -p 3080:8080 -d kajallad126/java-maven-app:1.5"
+                        sh "ssh -o StrictHostKeyChecking=no ubuntu@35.182.166.224 ${dockercommand}"
+                        }
                 } 
             }
         }
