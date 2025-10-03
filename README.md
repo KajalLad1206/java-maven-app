@@ -1,7 +1,10 @@
 # Build Automation & CI/CD with Jenkins
 
-### Demo Project 1:
+### Demo Projects:
 1. Install Jenkins on AWS
+2. CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)
+3. Create a Jenkins Shared Library
+4. Configure Webhook to trigger CI Pipeline automatically on git push
 
 ### Technologies Used:
 Jenkins, Docker, AWS, Linux
@@ -93,6 +96,9 @@ CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)
     - simple Jenkinsfile :https://github.com/KajalLad1206/java-maven-app/blob/jenkins-job/ex-Jenkinsfile
     
 #### Multibranch Pipeline
+
+https://github.com/KajalLad1206/java-maven-app-multipipe
+
 1. in Jenkins on the Dashboard
     - 'New Item' > enter a name
 2. similar to above, in the 'Branch Sources' section
@@ -149,6 +155,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 - Configure Jenkins to trigger the CI pipeline, whenever a change is pushed to GitHub
   
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+
 
 
 
