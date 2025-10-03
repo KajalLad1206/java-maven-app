@@ -40,9 +40,16 @@ ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
         Verify: `java -version`
 
    - Add Jenkins Repo 
+        `sudo apt update`
+        `sudo apt install -y openjdk-17-jdk`
+        Verify: `java -version`
+
+   - Add Jenkins Repo 
 
         `curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null` 
+        `curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null` 
 
+        `echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null `
         `echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null `
 
     Install Jenkins 
@@ -136,6 +143,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 Configure Webhook to trigger CI Pipeline automatically on git push
 
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+
 
 
 
