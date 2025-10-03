@@ -115,17 +115,16 @@ NOTE: all branches configured in the multibranch pipeline job should share the s
 
 -screenshot : https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
 
+---
 
+### Demo Project:
+Create a Jenkins Shared Library
 ### Project Objectives:
 - Create a Jenkins Shared Library to extract common build logic:
     - Create separate Git repository for Jenkins Shared Library project
     - Create functions in the JSL to use in the Jenkins pipeline
     - Integrate and use the JSL in Jenkins Pipeline (globally and for a specific project in Jenkinsfile)
----
-
-### Demo Project:
-Create a Jenkins Shared Library
-
+      
 https://github.com/KajalLad1206/jenkins-shared-library/tree/main#jenkins-shared-library
 
 Example : Use of Library in Jenkinsfile : https://github.com/KajalLad1206/java-maven-app-multipipe/blob/app-deploy/Jenkinsfile
@@ -134,15 +133,23 @@ Example : Use of Library in Jenkinsfile : https://github.com/KajalLad1206/java-m
 
 ### Demo Project:
 CD - Deploy Application from Jenkins Pipeline to EC2 Instance
-
+### Project Objectives:
+- Prepare AWS EC2 Instance for deployment (Install Docker)
+- Create ssh key credentials for EC2 server on Jenkins
+- Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
+- Configure security group on EC2 Instance to allow access to our web application
+  
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
 
 ---
 
 ### Demo Project:
 Configure Webhook to trigger CI Pipeline automatically on git push
-
+### Project Objectives:
+- Configure Jenkins to trigger the CI pipeline, whenever a change is pushed to GitHub
+  
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+
 
 
 
