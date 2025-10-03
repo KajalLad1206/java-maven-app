@@ -18,17 +18,14 @@ Jenkins, Docker, AWS, Linux
 - Initialize Jenkins
 ---
 ### Create an Ubuntu Server
-AWS account
-
-Running EC2 instance (Ubuntu 20.04 or 22.04)
-
-Inbound security group open for:
-
-Port 22 (SSH)
-Port 8080 (Jenkins)
+- AWS account
+- Running EC2 instance (Ubuntu 20.04 or 22.04)
+- Inbound security group open for:
+   - Port 22 (SSH)
+   - Port 8080 (Jenkins)
 1. Connect to EC2 Instance
-From your local machine:
-ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
+      - From your local machine:
+      - ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
 
 ### Either you can use Docker image of Jenkins or Manually install Jenkins
 1. Using Docker image of Jenkins
@@ -162,6 +159,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 ---
 - some screenshot of my work :
    - https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
+
 
 
 
