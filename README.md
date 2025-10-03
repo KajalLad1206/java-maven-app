@@ -73,7 +73,7 @@ ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
 2. after login, install the suggested plugins
 3. create first admin user
 ---
----
+
 ### Demo Project:
 CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)
 
@@ -143,6 +143,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 Configure Webhook to trigger CI Pipeline automatically on git push
 
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+
 
 
 
