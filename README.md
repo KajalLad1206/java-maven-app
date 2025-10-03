@@ -117,10 +117,6 @@ https://github.com/KajalLad1206/java-maven-app-multipipe
         }
         steps...
     ```
-NOTE: all branches configured in the multibranch pipeline job should share the same Jenkinsfile
-
--screenshot : https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
-
 ---
 
 ### Demo Project 2:
@@ -159,6 +155,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 ---
 - some screenshot of my work :
    - https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
+
 
 
 
