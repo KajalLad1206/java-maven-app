@@ -1,6 +1,6 @@
 # Build Automation & CI/CD with Jenkins
 
-### Demo Project:
+### Demo Project 1:
 1. Install Jenkins on AWS
 
 ### Technologies Used:
@@ -117,7 +117,7 @@ NOTE: all branches configured in the multibranch pipeline job should share the s
 
 ---
 
-### Demo Project:
+### Demo Project 2:
 2. Create a Jenkins Shared Library
 ### Project Objectives:
 - Create a Jenkins Shared Library to extract common build logic:
@@ -131,7 +131,7 @@ Example : Use of Library in Jenkinsfile : https://github.com/KajalLad1206/java-m
 
 ---
 
-### Demo Project:
+### Demo Project 3:
 3. CD - Deploy Application from Jenkins Pipeline to EC2 Instance
 ### Project Objectives:
 - Prepare AWS EC2 Instance for deployment (Install Docker)
@@ -143,12 +143,13 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 
 ---
 
-### Demo Project:
+### Demo Project 4:
 4. Configure Webhook to trigger CI Pipeline automatically on git push
 ### Project Objectives:
 - Configure Jenkins to trigger the CI pipeline, whenever a change is pushed to GitHub
   
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+
 
 
 
