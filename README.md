@@ -159,6 +159,11 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
   
 https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
 
+---
+- some screenshot of my work :
+   - https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
+
+
 
 
 
