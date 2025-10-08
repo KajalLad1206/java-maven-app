@@ -3,7 +3,7 @@
 ### Demo Projects:
 1. Install Jenkins on AWS
 2. CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)
-3. Create a Jenkins Shared Library
+3. Create a Jenkins Shared Library and deploy app on aws server
 4. Configure Webhook to trigger CI Pipeline automatically on git push
 ---
 ### Demo Project:
@@ -120,15 +120,16 @@ https://github.com/KajalLad1206/java-maven-app-multipipe
 ---
 
 ### Demo Project 2:
-2. Create a Jenkins Shared Library
+2. Create a Jenkins Shared Library deploy app on aws server
 ### Project Objectives:
 - Create a Jenkins Shared Library to extract common build logic:
     - Create separate Git repository for Jenkins Shared Library project
     - Create functions in the JSL to use in the Jenkins pipeline
     - Integrate and use the JSL in Jenkins Pipeline (globally and for a specific project in Jenkinsfile)
-      
+    - Deploy app on aws server    
 https://github.com/KajalLad1206/jenkins-shared-library/tree/main#jenkins-shared-library
 
+- Deploy app on aws server  
 Example : Use of Library in Jenkinsfile : https://github.com/KajalLad1206/java-maven-app-multipipe/blob/app-deploy/Jenkinsfile
 
 ---
@@ -155,6 +156,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 ---
 - some screenshot of my work :
    - https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
+
 
 
 
