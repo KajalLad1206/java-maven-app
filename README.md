@@ -142,7 +142,7 @@ Example : Use of Library in Jenkinsfile : https://github.com/KajalLad1206/java-m
 - Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
 - Configure security group on EC2 Instance to allow access to our web application
   
-https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-with-jenkins
+- https://github.com/KajalLad1206/java-maven-app-multipipe/tree/app-deploy#
 
 ---
 
@@ -156,6 +156,7 @@ https://github.com/KajalLad1206/java-maven-app-multipipe#build-automation--cicd-
 ---
 - some screenshot of my work :
    - https://github.com/KajalLad1206/java-maven-app/tree/jenkins-job/screenshot
+
 
 
 
